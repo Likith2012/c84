@@ -55,17 +55,17 @@ keyPressed = e.keyCode;
 }
 function numberkey()
 {
-	img_image="alpkey.png";
+	img_image="numkey.png";
 add();
 keyPressed = e.keyCode;
 	console.log(keyPressed);
 	
-		if((keyPressed >=97 && keyPressed<=122)|| (keyPressed >=65 && keyPressed<=90))
+		if((keyPressed >=48 && keyPressed<=57)||))
 		//write a code to check the type of key pressed
 	{
-		alphabetkey();
-		document.getElementById("d1").innerHTML="You pressed letter or alphabet key";
-		console.log("alphabet key");
+		numberkey();
+		document.getElementById("d1").innerHTML="You pressed number key";
+		console.log("number key");
 }
 }
 function arrowkey()
@@ -75,7 +75,7 @@ add();
 keyPressed = e.keyCode;
 	console.log(keyPressed);
 	
-		if((keyPressed >=97 && keyPressed<=122)|| (keyPressed >=65 && keyPressed<=90))
+		if((keyPressed >=37 && keyPressed<=40)||))
 		
 	{
 		arrowkey();
@@ -92,7 +92,7 @@ function spacialkey()
 	keyPressed = e.keyCode;
 		console.log(keyPressed);
 		
-			if((keyPressed >=97 && keyPressed<=122)|| (keyPressed >=65 && keyPressed<=90))
+			if((keyPressed >=17 && keyPressed<=18)|| (keyPressed >=27))
 			//write a code to check the type of key pressed
 		{
 			speckey();
